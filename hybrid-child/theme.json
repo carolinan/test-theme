@@ -1,0 +1,498 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color" : {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{
+					"name": "Yoast purple",
+					"slug": "yoast-purple",
+					"color": "#A61E69"
+				},
+				{
+					"name": "Default font color",
+					"slug": "default-font-color",
+					"color": "#4B5563"
+				},
+				{
+					"name": "Dimmed font color",
+					"slug": "dimmed-font-color",
+					"color": "#8C929F"
+				},
+				{
+					"name": "White",
+					"slug": "white",
+					"color": "#FFFFFF"
+				},
+				{
+					"name": "Black",
+					"slug": "black",
+					"color": "#000000"
+				},
+			 	{
+					"name": "Amber 100",
+					"slug": "amber-100",
+					"color": "#FEF3C7"
+				},
+				{
+					"name": "Amber 200",
+					"slug": "amber-200",
+					"color": "#FDE68A"
+				},
+				{
+					"name": "Amber 300",
+					"slug": "amber-300",
+					"color": "#FCD34D"
+				},
+				{
+					"name": "Amber 400",
+					"slug": "amber-400",
+					"color": "#FBBF24"
+				},
+				{
+					"name": "Amber 500",
+					"slug": "amber-500",
+					"color": "#F59E0B"
+				},
+				{
+					"name": "Amber 600",
+					"slug": "amber-600",
+					"color": "#b37500"
+				},
+				{
+					"name": "Amber 800",
+					"slug": "amber-800",
+					"color": "#92400E"
+				},
+				{
+					"name": "Amber 900",
+					"slug": "amber-900",
+					"color": "#78350F"
+				},
+				{
+					"name": "Blue 100",
+					"slug": "blue-100",
+					"color": "#DBEAFE"
+				},
+				{
+					"name": "Blue 500",
+					"slug": "blue-500",
+					"color": "#3B82F6"
+				},
+				{
+					"name": "Sky Blue 700",
+					"slug": "sky-blue-700",
+					"color": "#0369a1"
+				},
+				{
+					"name": "Blue 800",
+					"slug": "blue-800",
+					"color": "#1E40AF"
+				},
+				{
+					"name": "Gray 50",
+					"slug": "gray-50",
+					"color": "#F8F9FA"
+				},
+				{
+					"name": "Gray 100",
+					"slug": "gray-100",
+					"color": "#F3F4F6"
+				},
+				{
+					"name": "Gray 200",
+					"slug": "gray-200",
+					"color": "#E5E7Eb"
+				},
+				{
+					"name": "Gray 300",
+					"slug": "gray-300",
+					"color": "#D1D5DB"
+				},
+				{
+					"name": "Gray 400",
+					"slug": "gray-400",
+					"color": "#8C929F"
+				},
+				{
+					"name": "Gray 500",
+					"slug": "gray-500",
+					"color": "#6B7280"
+				},
+				{
+					"name": "Gray 600",
+					"slug": "gray-600",
+					"color": "#4B5563"
+				},
+				{
+					"name": "Gray 700",
+					"slug": "gray-700",
+					"color": "#374151"
+				},
+				{
+					"name": "Gray 800",
+					"slug": "gray-800",
+					"color": "#1F2937"
+				},
+				{
+					"name": "Gray 900",
+					"slug": "gray-900",
+					"color": "#111827"
+				},
+				{
+					"name": "Gray 950",
+					"slug": "gray-950",
+					"color": "#030712"
+				},
+				{
+					"name": "Green 100",
+					"slug": "green-100",
+					"color": "#DCFCE7"
+				},
+				{
+					"name": "Green 500",
+					"slug": "green-500",
+					"color": "#22C55E"
+				},
+				{
+					"name": "Green 600",
+					"slug": "green-600",
+					"color": "#13A047"
+				},
+				{
+					"name": "Green 800",
+					"slug": "green-800",
+					"color": "#166534"
+				},
+				{
+					"name": "Red 100",
+					"slug": "red-100",
+					"color": "#FEE2E2"
+				},
+				{
+					"name": "Red 500",
+					"slug": "red-500",
+					"color": "#EF4444"
+				},
+				{
+					"name": "Red 800",
+					"slug": "red-800",
+					"color": "#991B1B"
+				},
+				{
+					"name": "Orange red",
+					"slug": "orange-red",
+					"color": "#DC3232"
+				},
+				{
+					"name": "Purple 50",
+					"slug": "purple-50",
+					"color": "#F9F1F6"
+				},
+				{
+					"name": "Purple 100",
+					"slug": "purple-100",
+					"color": "#F3E5ED"
+				},
+				{
+					"name": "Purple 200",
+					"slug": "purple-200",
+					"color": "#EDCFE0"
+				},
+				{
+					"name": "Purple 300",
+					"slug": "purple-300",
+					"color": "#CD82AB"
+				},
+				{
+					"name": "Purple 400",
+					"slug": "purple-400",
+					"color": "#B94986"
+				},
+				{
+					"name": "Purple 500",
+					"slug": "purple-500",
+					"color": "#A61E69"
+				},
+				{
+					"name": "Purple 600",
+					"slug": "purple-600",
+					"color": "#9A1660"
+				},
+				{
+					"name": "Purple 700",
+					"slug": "purple-700",
+					"color": "#8F0F57"
+				},
+				{
+					"name": "Purple 800",
+					"slug": "purple-800",
+					"color": "#83084E"
+				},
+				{
+					"name": "Purple 900",
+					"slug": "purple-900",
+					"color": "#770045"
+				},
+				{
+					"name": "WordPress Blue",
+					"slug": "wp-blue",
+					"color": "#0073AA"
+				},
+				{
+					"name": "Black Transparent 0",
+					"slug": "rgba-black-0",
+					"color": "rgba(0, 0, 0, 0)"
+				},
+				{
+					"name": "Black Transparent 06",
+					"slug": "rgba-black-06",
+					"color": "rgba(0, 0, 0, 0.06)"
+				},
+				{
+					"name": "Black Transparent 1",
+					"slug": "rgba-black-1",
+					"color": "rgba(0, 0, 0, 0.1)"
+				},
+				{
+					"name": "Black Transparent 2",
+					"slug": "rgba-black-2",
+					"color": "rgba(0, 0, 0, 0.2)"
+				},
+				{
+					"name": "Black Transparent 4",
+					"slug": "rgba-black-4",
+					"color": "rgba(0, 0, 0, 0.4)"
+				},
+				{
+					"name": "Purple 500 Transparent 1",
+					"slug": "rgba-purple-500-1",
+					"color": "rgba(166, 30, 105, 0.1)"
+				},
+				{
+					"name": "Purple 500 Transparent 3",
+					"slug": "rgba-purple-500-3",
+					"color": "rgba(166, 30, 105, 0.3)"
+				},
+								{
+					"name": "Purple 500 Transparent 8",
+					"slug": "rgba-purple-500-8",
+					"color": "rgba(166, 30, 105, 0.8)"
+				},
+				{
+					"name": "Sky Blue 700 Transparent 25",
+					"slug": "rgba-skye-blue-700-25",
+					"color": "rgba(3, 105, 161, 0.25)"
+				},
+				{
+					"name": "White Transparent 1",
+					"slug": "rgba-white",
+					"color": "rgba(255, 255, 255, 0.1)"
+				},
+				{
+					"name": "White Transparent 18",
+					"slug": "rgba-white-18",
+					"color": "rgba(255, 255, 255, 0.18)"
+				},
+				{
+					"name": "White Transparent 2",
+					"slug": "rgba-white-2",
+					"color": "rgba(255, 255, 255, 0.2)"
+				},
+				{
+					"name": "White Transparent 6",
+					"slug": "rgba-white-6",
+					"color": "rgba(255, 255, 255, 0.6)"
+				},
+				{
+					"name": "White Transparent 95",
+					"slug": "rgba-white-95",
+					"color": "rgba(255, 255, 255, 0.95)"
+				}
+			],
+			"gradients": [
+				{
+					"name": "Dark pink to light purple",
+					"slug": "dark-pink-to-light-purple",
+					"gradient": "linear-gradient(85deg, #A61E69 0%, #6366F1 100%)"
+				},
+				{
+					"name": "Dark to light purple",
+					"slug": "dark-to-light-purple",
+					"gradient": "linear-gradient(60deg, #5d237a 0%, #a61e69 84%, #a61e69 100%)"
+				},
+				{
+					"name": "Dark blue to black",
+					"slug": "dark-blue-to-black",
+					"gradient": "linear-gradient(180deg, #2B3A55 0%, #07101F 100%)"
+				}
+			]
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Small shadow",
+					"slug": "shadow-sm",
+					"shadow": "0px 1px 2px 0px #0000000D"
+				},
+				{
+					"name": "Shadow",
+					"slug": "shadow",
+					"shadow": "0px 1px 2px 0px #0000000F, 0px 1px 3px 0px #0000001A"
+				},
+				{
+					"name": "Medium shadow",
+					"slug": "shadow-md",
+					"shadow": "0px 2px 4px -1px #0000000F, 0px 4px 6px -1px #0000001A"
+				},
+				{
+					"name": "Large shadow",
+					"slug": "shadow-lg",
+					"shadow": "0px 4px 6px -2px #0000000D, 0px 10px 15px -3px #0000001A"
+				},
+				{
+					"name": "XL shadow",
+					"slug": "shadow-xl",
+					"shadow": "0px 10px 10px -5px #0000000A, 0px 20px 25px -5px #0000001A"
+				},
+				{
+					"name": "2XL shadow",
+					"slug": "shadow-xxl",
+					"shadow": "0px 25px 50px -12px #00000040"
+				},
+				{
+					"name": "Inner shadow",
+					"slug": "shadow-inner",
+					"shadow": "0px 2px 4px 0px #0000000F inset"
+				}
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontSizes": [
+				{
+					"slug": "text-xs",
+					"size": "0.75rem",
+					"name": "Extra small"
+				},
+				{
+					"slug": "text-xm",
+					"size": "0.8125rem",
+					"name": "Post meta"
+				},
+				{
+					"slug": "text-sm",
+					"size": "0.875rem",
+					"name": "Small"
+				},
+				{
+					"slug": "text-base",
+					"size": "1rem",
+					"name": "Base"
+				},
+				{
+					"slug": "text-lg",
+					"size": "1.125rem",
+					"name": "Large"
+				},
+				{
+					"slug": "text-xl",
+					"size": "1.25rem",
+					"name": "Extra Large"
+				},
+				{
+					"slug": "text-2xl",
+					"size": "1.5rem",
+					"name": "2XL"
+				},
+				{
+					"slug": "text-3xl",
+					"size": "1.875rem",
+					"name": "3XL",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "1.875rem"
+					}
+				},
+				{
+					"slug": "text-4xl",
+					"size": "2.25rem",
+					"name": "4XL",
+					"fluid": {
+						"min": "1.875rem",
+						"max": "2.25rem"
+					}
+				},
+				{
+					"slug": "text-4xl-quote",
+					"size": "2.25rem",
+					"name": "4XL Quote",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2.25rem"
+					}
+				},
+				{
+					"slug": "text-5xl",
+					"size": "2.75rem",
+					"name": "5XL",
+					"fluid": {
+						"min": "2.25rem",
+						"max": "2.75rem"
+					}
+				},
+				{
+					"slug": "text-6xl",
+					"size": "3.5rem",
+					"name": "6XL",
+					"fluid": {
+						"min": "2.75rem",
+						"max": "3.5rem"
+					}
+				},
+				{
+					"slug": "text-7xl",
+					"size": "4rem",
+					"name": "7XL",
+					"fluid": {
+						"min": "2.75rem",
+						"max": "4rem"
+					}
+				}
+			]
+		},
+		"blocks": {
+			"core/image": {
+				"border": {
+					"radius": true
+				}
+			}
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/image": {
+				"variations": {
+					"rounded": {
+						"border": {
+							"radius": "16px"
+						}
+					}
+				}
+			},
+			"core/button": {
+				"color": {
+					"background": "red",
+					"text": "green"
+				},
+				"border": {
+					"radius": "0px"
+				}
+			}
+		}
+	}
+}
