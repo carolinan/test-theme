@@ -2,6 +2,9 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"settings": {
+		"spacing": {
+			"blockGap": true
+		},
 		"color" : {
 			"defaultPalette": false,
 			"defaultGradients": false,
@@ -467,8 +470,20 @@
 		},
 		"blocks": {
 			"core/image": {
+				"color": {
+					"custom": false,
+					"palette": [
+						{
+						"name": "Gray 400",
+						"slug": "gray-400-border",
+						"color": "#9CA3AF"
+					}
+					]
+				},
 				"border": {
-					"radius": true
+					"radius": true,
+					"width": true,
+					"color": true
 				}
 			}
 		}
@@ -479,7 +494,7 @@
 				"variations": {
 					"rounded": {
 						"border": {
-							"radius": "16px"
+							"radius": "8px"
 						}
 					}
 				}
